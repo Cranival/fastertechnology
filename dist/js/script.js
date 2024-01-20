@@ -54,7 +54,7 @@ form.addEventListener('submit', e => {
       btnLoading.classList.toggle("hidden");
       btnKirim.classList.toggle("hidden");
       //tampilkan alert
-      swal("Terimakasih!", "Pesan anda sudah kami terima!", "success");
+      swal("Thank you!", "Your message has been received!", "success");
       //reset formnya
       form.reset();
       console.log('Success!', response);
